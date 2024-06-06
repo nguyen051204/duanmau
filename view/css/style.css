@@ -1,0 +1,390 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+        
+}
+.container{
+    width: 90%;
+    
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+
+
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.mr{
+    margin-right: 2%;
+}
+
+.header{
+    background-color: rgb(113, 234, 234);
+    border: 1px rgba(214, 179, 95, 0) solid;
+    
+    color:blue;
+    border-radius: 5px;
+}
+.header h1{
+    margin:  20px;
+    font-size: 1.2vw;
+}
+.menu{
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+
+.footer{
+    background-color: rgb(113, 234, 234);
+    border: 1px rgba(214, 179, 95, 0) solid;
+    font-size: 0.8vw;
+    color:blue;
+    border-radius: 5px;
+    padding:20px;
+}
+.boxtitle{
+    color:#333;
+    padding: 10px;
+    background-color: #EEEE;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border: 1px #CCC solid;
+}
+
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    min-height: 200px;
+    background-color: #EEE;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-radius: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+
+}
+
+.banner{
+    min-height: 300px;
+    width: auto;
+    text-align: center;
+   
+}
+
+.banner img{
+    height: 300px;
+}
+.boxsp{
+    margin-top: 10px;
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 2px #EEE solid;
+    border-radius: 5x;
+    margin-bottom: 15px;
+    
+    
+}
+
+.rowimg{
+    min-height: 250px;
+    text-align: center;
+}
+
+.menu ul{
+    padding:0 15px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #CCC;
+    font-size: 1vw;
+}
+.formdangnhap{
+    line-height: 150%;
+}
+.formdangnhap input[type="text"],
+.formdangnhap input[type="email"],
+.formdangnhap input[type="password"],
+.frmcontent input[type="text"]
+{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.formdangnhap input[type="checkbox"]
+{
+    border-radius: 5px;
+}
+.formdangnhap input[type="submit"],
+.frmcontent input[type="submit"],
+.formdangnhap input[type="reset"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"]
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px #CCC solid;
+    background: white ;
+    
+}
+.formdangnhap input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover
+{
+   
+    background:#CCC ;
+  
+}
+.formdangnhap li a{
+    color: teal;
+    text-decoration:none;
+}
+.formdangnhap li a:hover{
+    color: teal;
+    text-decoration:underline;
+}
+
+ .menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+
+} 
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+     border-bottom: 1px #CCC solid; 
+    }
+.menudoc ul li a{
+        color:#666;
+        text-decoration: none;
+
+
+} 
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+
+.top10 img{
+    width: 20%;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: hotpink;
+    text-decoration:underline;
+
+}
+.headeradmin{
+    background-color: #EEE;
+    border: 1px #CCC solid;
+    color:#333;
+    border-radius: 5px;
+}  
+.headeradmin h1{
+    font-size: 2vw;
+}
+.frmtitle{
+    background-color: #EEE;
+    border: 1px #CCC solid;
+    color:#333;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.frmcontent{
+    padding: 20px 0px;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse:collapse ;
+    
+}
+
+.frmdsloai table th{
+    padding: 20px;
+    background-color: #CCC;
+}
+/* .frmdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #CCC;
+} */
+
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+
+
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+
+  .mySlides {
+    display: none;
+  }
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+ 
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .spct{
+    text-align: center;
+  }
+
+.thongbao{
+    color: red;
+}
+
+/* {
+
+} */
